@@ -1,0 +1,12 @@
+## Day 6: Learning useEffect + Life lesson (BIG WIN)
+
+## useEffect in React
+useEffect is like onload effect in javascript, it is a React Hook that let a component react to changes or perform side effects.
+it's also a way to run code automatically when something happens in my component.
+
+## How to use it
+useEffect(() => {
+  // code to run will be written here.
+});
+
+## using useEffect with dependency 
