@@ -8,5 +8,30 @@ it's also a way to run code automatically when something happens in my component
 useEffect(() => {
   // code to run will be written here.
 });
+the code above is useEffect basic code.
 
 ## using useEffect with dependency 
+useEffect can come with second arguements at times which is dependency array.
+useEffect(() => {
+  // code to run
+}, [dependency]);
+[dependency] = tells React when to run the effect
+If the array is empty [], effect runs only once when the component mounts.
+
+## When to use useEffect
+Use useEffect anytime your component needs to do something outside of just rendering.
+
+## The logic behind useEffect
+  1. React renders your UI
+  2. React checks if the dependencies for useEffect changed
+  3. If yes → React runs the effect function
+  4. If there’s a cleanup function → React runs it first before re-running the effect
+  5. This keeps side effects predictable and synced with state.
+
+## Analogy 
+useSate: this remember and display stuff
+useEffect: this do something when the stuff changes, or when component appear or disappear.
+
+## Life lesson I learn (topic: before you take, you have to give).
+# Lesson from story: "Before you take, give."
+Connection: By giving myself time, energy, and knowledge today, I'm building my future business and career.
