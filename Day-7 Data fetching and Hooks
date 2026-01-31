@@ -1,0 +1,7 @@
+## Introduction to Data fecthing and Hook
+# what I learn today 
+  1. Learn how React fetech data from an APIs (JSON-Server).
+  2. Understood that fetch return promise.
+  3. Saw two ways to handle async code: .then and async/await.
+  4. Learn what custom hook are use for.
+everything still feel abract but confident it will click when tankling project.
